@@ -7,7 +7,10 @@ class ReactionsViewer extends Component {
         return (
             <div class="footer__reactions reactions">
                 <div class="reactions__emojis emojis">
-                    <img src="/images/like.svg" class="emojis__like" />
+                    <img
+                        src="https://cdn.worldvectorlogo.com/logos/facebook-like.svg"
+                        class="emojis__like"
+                    />
                     <span class="emojis__count">
                         <p>
                             {isLiked ? "You and " : ""}

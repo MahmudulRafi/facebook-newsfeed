@@ -7,7 +7,7 @@ class AddNewComment extends Component {
             <div class="comments__box box">
                 <div class="box__profile profile">
                     <img
-                        src="/images/user-images/mashrafe.jpg"
+                        src="https://s.ndtvimg.com/images/entities/300/mashrafe-mortaza-288.png"
                         class="profile__pic"
                     />
                 </div>
