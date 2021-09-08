@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.a364b3ea.chunk.css",
-    "main.js": "/static/js/main.43a7c68e.chunk.js",
-    "main.js.map": "/static/js/main.43a7c68e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4d3864e3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4d3864e3.js.map",
-    "static/js/2.bf5a53cc.chunk.js": "/static/js/2.bf5a53cc.chunk.js",
-    "static/js/2.bf5a53cc.chunk.js.map": "/static/js/2.bf5a53cc.chunk.js.map",
-    "static/js/3.19ebd951.chunk.js": "/static/js/3.19ebd951.chunk.js",
-    "static/js/3.19ebd951.chunk.js.map": "/static/js/3.19ebd951.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.a364b3ea.chunk.css.map": "/static/css/main.a364b3ea.chunk.css.map",
-    "static/js/2.bf5a53cc.chunk.js.LICENSE.txt": "/static/js/2.bf5a53cc.chunk.js.LICENSE.txt",
-    "static/media/post.css": "/static/media/like.75f9bea1.svg"
+    "main.css": "/facebook-newsfeed/static/css/main.d33f38b6.chunk.css",
+    "main.js": "/facebook-newsfeed/static/js/main.43a7c68e.chunk.js",
+    "main.js.map": "/facebook-newsfeed/static/js/main.43a7c68e.chunk.js.map",
+    "runtime-main.js": "/facebook-newsfeed/static/js/runtime-main.79230a86.js",
+    "runtime-main.js.map": "/facebook-newsfeed/static/js/runtime-main.79230a86.js.map",
+    "static/js/2.bf5a53cc.chunk.js": "/facebook-newsfeed/static/js/2.bf5a53cc.chunk.js",
+    "static/js/2.bf5a53cc.chunk.js.map": "/facebook-newsfeed/static/js/2.bf5a53cc.chunk.js.map",
+    "static/js/3.19ebd951.chunk.js": "/facebook-newsfeed/static/js/3.19ebd951.chunk.js",
+    "static/js/3.19ebd951.chunk.js.map": "/facebook-newsfeed/static/js/3.19ebd951.chunk.js.map",
+    "index.html": "/facebook-newsfeed/index.html",
+    "static/css/main.d33f38b6.chunk.css.map": "/facebook-newsfeed/static/css/main.d33f38b6.chunk.css.map",
+    "static/js/2.bf5a53cc.chunk.js.LICENSE.txt": "/facebook-newsfeed/static/js/2.bf5a53cc.chunk.js.LICENSE.txt",
+    "static/media/post.css": "/facebook-newsfeed/static/media/like.75f9bea1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d3864e3.js",
+    "static/js/runtime-main.79230a86.js",
     "static/js/2.bf5a53cc.chunk.js",
-    "static/css/main.a364b3ea.chunk.css",
+    "static/css/main.d33f38b6.chunk.css",
     "static/js/main.43a7c68e.chunk.js"
   ]
 }
