@@ -4,11 +4,17 @@ import UserComment from "./userComment.component";
 
 class PostComments extends Component {
     render() {
-        const { comments, allPost } = this.props;
+        const { comments, allPost, postId, onCreateComment, logedinUser } =
+            this.props;
 
         return (
             <div class="footer__comments comments">
-                <AddNewComment />
+                <AddNewComment
+                    postId={postId}
+                    allPost={allPost}
+                    onCreateComment={onCreateComment}
+                    logedinUser={logedinUser}
+                />
 
                 {comments.map((comment) => {
                     return (

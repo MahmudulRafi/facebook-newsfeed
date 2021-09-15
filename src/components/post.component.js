@@ -10,7 +10,8 @@ class Post extends Component {
     state = {};
 
     render() {
-        const { post, allPost, onPostLike } = this.props;
+        const { post, allPost, onPostLike, onCreateComment, logedinUser } =
+            this.props;
 
         return (
             <>
@@ -54,8 +55,11 @@ class Post extends Component {
                             {/*  Comments */}
 
                             <PostComments
+                                postId={post.postId}
                                 comments={post.comments}
                                 allPost={allPost}
+                                onCreateComment={onCreateComment}
+                                logedinUser={logedinUser}
                             />
                         </div>
                     </div>

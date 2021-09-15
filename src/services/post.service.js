@@ -67,7 +67,7 @@ const posts = [
         postContent:
             "What a moment for us! What a victory! 4-1 against a strong Australian team. Congratulations to each and everyone of my team mates!!",
         postImageSource:
-            "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/235266464_369720821190202_9017948623854087284_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=9cOPhda5Z5sAX8EPal7&tn=afA9dPb4XtEL8esX&_nc_ht=scontent.fcgp7-1.fna&oh=06575f538c391a3ab4a8004ec6c927bd&oe=613E9A57",
+            "https://s01.sgp1.cdn.digitaloceanspaces.com/article/162620-viymckqkjm-1628526039.jpeg",
         isLiked: true,
         likeCount: 3,
         shareCount: 0,
@@ -83,6 +83,27 @@ const posts = [
                 userId: 101,
                 commentId: 1,
                 comment: "Nice",
+            },
+        ],
+    },
+    {
+        postId: 3,
+        userId: 103,
+        userName: "Mahrafe Mortaza",
+        userImageSource:
+            "https://s.ndtvimg.com/images/entities/300/mashrafe-mortaza-288.png",
+        postingDateTime: "01 Aug, 2021",
+        postContent: "What a moment for us!",
+        postImageSource: "",
+        isLiked: false,
+        likeCount: 3,
+        shareCount: 0,
+        comments: [
+            {
+                postId: 3,
+                userId: 100,
+                commentId: 0,
+                comment: "Hello",
             },
         ],
     },

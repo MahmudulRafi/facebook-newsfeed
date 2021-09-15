@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
 class AddNewComment extends Component {
-    state = {};
     render() {
+        const { postId, onCreateComment, logedinUser, allPost } = this.props;
+
         return (
             <div class="comments__box box">
                 <div class="box__profile profile">
@@ -13,6 +14,7 @@ class AddNewComment extends Component {
                 </div>
                 <div class="box__bar bar">
                     <input
+                        onKeyPress={onCreateComment.bind(this, [postId])}
                         type="text"
                         placeholder="Write a comment..."
                         class="bar__input"
