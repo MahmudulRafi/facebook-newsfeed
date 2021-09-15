@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import AddNewComment from "./add-new-comment/addNewComment.component";
-import UserComment from "./load-comments/userComment.component";
+import AddNewComment from "./addNewComment.component";
+import UserComment from "./userComment.component";
 
 class PostComments extends Component {
     render() {
@@ -8,7 +8,6 @@ class PostComments extends Component {
 
         return (
             <div class="footer__comments comments">
-               
                 <AddNewComment />
 
                 {comments.map((comment) => {

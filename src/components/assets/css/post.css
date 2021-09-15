@@ -292,12 +292,11 @@ a {
     width: 1.8rem;
     height: 1.8rem;
     display: inline-block;
-    background-image: url("./images/like.svg");
+    background-image: url("./images/hand-like.png");
     background-size: 2.6rem 77.4rem;
     background-repeat: no-repeat;
     opacity: 0.6;
     margin-right: 0.5rem;
-    background-color: #4267b2;
 }
 
 .like__icon {

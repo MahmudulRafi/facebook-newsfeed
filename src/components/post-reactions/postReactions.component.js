@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ActionButtons from "./actionButtons.component";
-import ReactionsViewer from "./reactions-viewer/reactionsViewer.components";
+import ReactionsViewer from "./reactionsViewer.components";
 
 class PostReactions extends Component {
     state = {};
